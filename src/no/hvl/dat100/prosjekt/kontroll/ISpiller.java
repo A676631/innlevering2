@@ -13,25 +13,15 @@ public interface ISpiller {
 	 */
 	public KortSamling getHand();
 
-	/**
-	 * Gir antall kort spilleren har på hånd.
-	 * 
-	 * @return antall kort spilleren har på hånd.
-	 */
+	
 	public int getAntallKort();
 
-	/**
-	 * Hvem spilleren er (nord, syd).
-	 * 
-	 * @return hvem spilleren er.
-	 */
+
+	
+	 
 	public Spillere hvem();
 
-	/**
-	 * Avjgør om spiller er ferdig (har ingen kort).
-	 * 
-	 * @return true om spilleren er ferdig, false ellers.
-	 */
+	
 	public boolean erFerdig();
 
 	/**
